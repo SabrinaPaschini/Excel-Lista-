@@ -8,7 +8,7 @@ book = openpyxl.Workbook()
 
 print(book.sheetnames)
 
-#COMO CRIAR UMA PAGINA
+#COMO CRIAR UMA GUIA
 
 book.create_sheet('nomes')
 
@@ -28,5 +28,3 @@ nomes_page.append(['Fernanda'])
 #SALVAR PLANILHA
 
 book.save('planilha de nomes.xlsx')
-
-
